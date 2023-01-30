@@ -1,0 +1,83 @@
+body{
+    background-color: #F3EAE3;
+}
+
+.container .imagens .imagem-mob {
+    display: none;
+ }
+
+ .container{
+    background-color: #ffffff;
+    max-width: 720px;
+    margin: 100px auto ;
+    display: flex;
+    border-radius: 10px;
+ }
+
+ .container .imagens .imagem-comp{
+    margin: 0 0 -10px 0;
+    max-width: 350px;
+    border-radius: 10px 0 0 10px;
+ }
+
+ .container .descricao{
+    margin: 46px;
+ }
+
+ .container .descricao .per{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Montserrat;
+    font-size: 12px;
+ }
+
+ .container .descricao h1{
+    font-family: Playfair;
+    margin: 25px 0 25px 0;
+    font-size: 40px;
+    line-height: 37px;
+    font-weight: bold;
+ }
+
+ .container .descricao .des{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 0 25px 0;
+ }
+
+ .container .descricao .preco{
+    display: flex;
+    margin: 0 0 35px 0;
+ }
+
+ .container .descricao .preco h2{
+    font-family: PT serif;
+    font-size: 35px;
+    color: #3C8369;
+    font-weight: bold;
+ }
+
+ .container .descricao .preco h3{
+    font-family: Montserrat;
+    margin: auto 25px;
+    font-size: 15px;
+    text-decoration: line-through;
+    color: rgb(92, 91, 91);
+ }
+
+ .container .descricao .botao{
+    color: #ffffff;
+    background-color: #3C8369;
+    border: none;
+    padding: 15px 85px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: 0.2;
+    }
+
+    .container .descricao .botao:hover{
+        background-color: #1A4031;
+    }
